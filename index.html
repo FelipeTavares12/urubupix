@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urubu do Pix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="vulture.png.jpeg" alt="Urubu" class="logo">
+            <h1>Urubu do Pix</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#games">Jogos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="side-pillars">
+            <div class="pillar-left"></div>
+            <div class="pillar-right"></div>
+        </div>
+        
+        <section id="home">
+            <div class="container">
+                <h2>Início</h2>
+                <p>Bem-vindo ao Urubu do Pix, onde você pode fazer suas apostas e ganhar grandes prêmios!</p>
+                <img src="images/casino.jpg" alt="Cassino" class="feature-img">
+            </div>
+        </section>
+        
+        <section id="games">
+            <div class="container">
+                <h2>Jogos Disponíveis</h2>
+                <div class="game">
+                    <h3>Jogo da Roleta</h3>
+                    <p>Experimente a emoção da roleta e faça suas apostas!</p>
+                    <button>Faça sua Aposta</button>
+                </div>
+                <div class="game">
+                    <h3>Blackjack</h3>
+                    <p>Teste suas habilidades no blackjack e vença!</p>
+                    <button>Faça sua Aposta</button>
+                </div>
+                <div class="game">
+                    <h3>Pôquer</h3>
+                    <p>Participe de emocionantes mesas de pôquer.</p>
+                    <button>Faça sua Aposta</button>
+                </div>
+                <!-- Novos Jogos -->
+                <div class="game">
+                    <h3>Slots</h3>
+                    <p>Gire os rolos e ganhe prêmios incríveis!</p>
+                    <button>Faça sua Aposta</button>
+                </div>
+                <div class="game">
+                    <h3>Dados</h3>
+                    <p>Jogue dados e teste sua sorte!</p>
+                    <button>Faça sua Aposta</button>
+                </div>
+                <div class="game">
+                    <h3>Keno</h3>
+                    <p>Escolha seus números e veja se eles são sorteados!</p>
+                    <button>Faça sua Aposta</button>
+                </div>
+                <div class="game">
+                    <h3>Bingo</h3>
+                    <p>Participe do emocionante jogo de bingo!</p>
+                    <button>Faça sua Aposta</button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>O Urubu do Pix é um site de apostas online dedicado a proporcionar uma experiência de jogo emocionante e segura.</p>
+                <img src="images/about.jpg" alt="Sobre Nós" class="feature-img">
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <form action="send_message.php" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Urubu do Pix. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
